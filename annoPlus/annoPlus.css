@@ -1,0 +1,20 @@
+.canvas-container {
+  position: absolute !important;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.anno-menu {
+  position: absolute;
+  background-color: #fff;
+  padding: 5px 12px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  display: none;
+}
+
+.anno-menu:hover {
+    cursor: pointer;
+  background-color: #eee;
+}
